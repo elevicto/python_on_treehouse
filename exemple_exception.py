@@ -4,3 +4,4 @@ except ValueError:
     print("That's not a number!")
 else:
     print("Hi " * count)
+    print("super")
