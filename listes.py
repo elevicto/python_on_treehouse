@@ -23,4 +23,10 @@ favorite_things.insert(0, "les violons ivres")
 
 print(favorite_things)
 
-# de manière générale on n'utilise que très rarement "=" car on ne fait que modifier la liste d'origine au lieu de recréer systématiquement des nouvelles listes. C'est une chose pour laquelle il faut rester vigilent. 
+# de manière générale on n'utilise que très rarement "=" car on ne fait que modifier la liste d'origine au lieu de recréer systématiquement des nouvelles listes. C'est une chose pour laquelle il faut rester vigilent.
+
+my_list = [1, 2, 3, 1]
+#Remove ne supprime que la première instance d'une valeur d'une liste...
+my_list.remove(1)
+#Resultat = 2, 3, 1
+#Si je relance encore my_list.remove(1), il va supprimer le dernier '1'. Par contre si on continue une 3ème fois, il va retourner une erreur. 
